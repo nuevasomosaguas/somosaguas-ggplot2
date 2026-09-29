@@ -1,0 +1,15 @@
+Package: somosaguas
+Title: Tema de 'ggplot2' de Nueva Somosaguas
+Version: 0.1.0
+Authors@R: c(
+    person("Daniel", email = "pesfan@gmail.com", role = c("aut", "cre")),
+    person("Nueva Somosaguas", role = "cph"))
+Description: Tema y escalas de color de 'ggplot2' con el estándar gráfico de
+    Nueva Somosaguas: fondo de papel, sin rejillas pesadas, EB Garamond incluida
+    y una paleta categórica apta para daltonismo.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Depends: R (>= 4.1)
+Imports: ggplot2 (>= 4.0.0), systemfonts
+Suggests: ragg

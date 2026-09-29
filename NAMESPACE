@@ -1,0 +1,5 @@
+export(theme_somosaguas)
+export(scale_colour_somosaguas)
+export(scale_color_somosaguas)
+export(scale_fill_somosaguas)
+export(paleta_somosaguas)
