@@ -30,7 +30,7 @@ ggsave("grafico.png", device = ragg::agg_png)
 - `theme_somosaguas()`: fondo de papel, sin rejillas verticales ni menores, EB Garamond también en `geom_text()`, título en granate y leyenda mínima encima del gráfico.
 - `scale_colour_somosaguas()` y `scale_fill_somosaguas()`: cinco colores en orden fijo (`paleta_somosaguas`), validados para daltonismo y con contraste 3:1 sobre el papel. Con un sexto nivel la escala falla a propósito: agrupe en «Otros» o use facetas.
 
-El estándar pide etiquetar las series directamente en lugar de usar una leyenda; `ejemplo.R` muestra cómo, y genera la imagen de arriba.
+El estándar pide etiquetar cada serie en el propio gráfico en lugar de usar una leyenda; `ejemplo.R` muestra cómo, y genera la imagen de arriba.
 
 ## Dispositivos gráficos
 
